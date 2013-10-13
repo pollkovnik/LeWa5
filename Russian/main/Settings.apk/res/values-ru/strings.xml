@@ -2501,7 +2501,7 @@
 
     <string name="inadvertmode_title">Контроль случайных нажатий</string>
     <string name="inadvertmode_msg">Исключить случайные нажатия, когда устройство находится в кармане</string>
-    <string name="sim_settings_guide_editname_title">Мастер настройки режима SIM-карт</string>
+    <string name="sim_settings_guide_editname_title">Мастер настройки SIM-карт</string>
     <string name="sim_settings_guide_voicesms_title">Голосовые вызовы и SMS/MMS</string>
     <string name="sim_settings_guide_data_title">Передача данных</string>
     <string name="sim_settings_guide_datasave_title">Ограничение трафика</string>

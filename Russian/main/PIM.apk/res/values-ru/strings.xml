@@ -1359,7 +1359,7 @@
     <string name="dialpad_showdialpad">Показать номеронабиратель</string>
     <string name="call_dialpad_setting">Настройки вызова</string>
     <string name="dialer_search_item_misscall_time">гудков: %s</string>
-    <string name="dialpad_to_text">вызов</string>
+    <string name="dialpad_to_text">Позвонить:</string>
     <string name="call_log_clear_all">Очистить журнал вызовов</string>
     <string name="mms_select_contacts_group_count">контакты</string>
     <string name="mms_select_contacts_recent_contacts">последние контакты</string>
