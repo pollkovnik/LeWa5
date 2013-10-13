@@ -736,7 +736,10 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-
+    <string-array name="simguide_datauseage">
+        <item>Мб/Месяц</item>
+        <item>Гб/Месяц</item>
+    </string-array>
 
 
 

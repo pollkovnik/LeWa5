@@ -22,7 +22,7 @@
     <string name="sd_eject_usbstorage_summary">Отключить внутр. USB накопитель</string>
     <string name="sd_mount_usbstorage">Подключить USB накопитель</string>
     <string name="sd_insert_usb_summary">Вставить USB накопитель</string>
-    <string name="usb_ums_title">USB Flash Disk</string>
+    <string name="usb_ums_title">USB флэш диск</string>
     <string name="usb_ums_summary">Рекомендуется для Windows XP. Позволяет передавать файлы между компьютером и телефоном.</string>
     <string name="usb_charge_title">Только зарядка</string>
     <string name="usb_charge_summary">Остановить выполнение всех USB функций. Это позволить ускорить зарядку от USB и снизить энергопотребление.</string>
@@ -2508,7 +2508,7 @@
     <string name="sim_settings_guide_video_title">Видеовызов</string>
     <string name="sim_settings_guide_fastmode_title">Быстрый режим</string>
     <string name="sim_settings_data_usage_title">Тарифный план</string>
-    <string name="sim_settings_data_usage_hint_text">Пожалуйста, введите объем трафика по тарифному плану</string>
+    <string name="sim_settings_data_usage_hint_text">Кол-во трафика</string>
     <string name="sim_settings_data_usage_mb_size">Mб в месяц</string>
     <string name="sim_settings_data_usage_dont_care"><u>Ввести позже</u></string>
     <string name="sim_settings_data_switch">Передача данных</string>
