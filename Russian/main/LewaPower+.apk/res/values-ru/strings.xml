@@ -69,8 +69,8 @@
     <string name="spm_app_running">Исп.</string>
     <string name="spm_app_not_started">Не исп.</string>
     <string name="spm_mode_choice_normal_toast">Включение нормального режима, передача данных будет включена</string>
-    <string name="spm_mode_choice_standy_by_toast">Вкл. Энергосбережения,</string>
-    <string name="spm_mode_choice_exit_standy_by_toast">Выкл. Энергосбережения,</string>
+    <string name="spm_mode_choice_standy_by_toast">Включено энергосбережение</string>
+    <string name="spm_mode_choice_exit_standy_by_toast">Выключено энергосбережение</string>
     <string name="spm_mode_choice_alarm_toast">"Вкл. режима Alarm,  "</string>
     <string name="sp_bedtime_dialog_start_title">Установить время начала</string>
     <string name="sp_bedtime_dialog_end_title">Установите время окончания</string>
@@ -85,9 +85,9 @@
     <string name="sp_btn_calibration">Калибровать</string>
     <string name="spm_mode_choice">Запуск</string>
     <string name="spm_mode_dev_shutdown">Откл.</string>
-    <string name="spm_mode_choice_time_advance">"  увеличено на  "</string>
-    <string name="spm_mode_choice_time_reduce">"  уменьшено на  "</string>
-    <string name="spm_mode_choice_dialog_content_before">Оставшееся время работы</string>
+    <string name="spm_mode_choice_time_advance">" увеличено на "</string>
+    <string name="spm_mode_choice_time_reduce">" уменьшено на "</string>
+    <string name="spm_mode_choice_dialog_content_before">Время работы телефона</string>
     <string name="spm_battery_life_time_has_no_changed">не изменялось</string>
     <string name="spm_life_time">Врем. раб.</string>
     <string name="spm_charging_time">Зарядка</string>
@@ -120,8 +120,8 @@
     <string name="spm_custom_settings_intelli_batterylow_title">Уведомление о низкий уровене заряда</string>
     <string name="spm_custom_settings_intelli_batterylow_summy">"Показать уведомление при низком заряде аккумулятора. Текущий значение - "</string>
     <string name="spm_battery_low_warnnig_title">Батарея разряжена!</string>
-    <string name="spm_battery_low_warnnig_msg">Внимание! Уровень заряда меньше</string>
-    <string name="spm_battery_low_warnnig_msg_1">.Открыть приложение энергосбережения?</string>
+    <string name="spm_battery_low_warnnig_msg">Внимание! Уровень заряда батареи меньше -</string>
+    <string name="spm_battery_low_warnnig_msg_1">.Включить энергосбережение?</string>
     <string name="spm_battery_low_warnnig_to_connect">Заряд батареи ниже чем</string>
 
     <string name="spm_inti_statusbar_in">Режим экономии энергии включен</string>

@@ -233,8 +233,8 @@
     <string name="global_actions">Параметры телефона</string>
     <string name="global_action_lock">Блокировка экрана</string>
     <string name="global_action_power_off">Отключить питание</string>
-    <string name="global_action_bug_report">Отчет об ошибке</string>
-    <string name="bugreport_title">Создание отчета об ошибке</string>
+    <string name="global_action_bug_report">Отчет об ошибках</string>
+    <string name="bugreport_title">Создание отчета об ошибках</string>
     <string name="bugreport_message">Система подготовит информацию о состоянии Вашего устройства для отправки его по электронной почте. Это займет некоторое время, пожалуйста, будьте терпеливы.</string>
     <string name="global_action_toggle_silent_mode">Режим без звука</string>
     <string name="global_action_silent_mode_on_status">Выключить</string>

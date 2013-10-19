@@ -126,7 +126,7 @@
     <string name="epo_warning_dialog_message">При загрузке данных EPO в роуминге может взиматься дополнительная плата. Продолжить?</string>
     <string name="ring_summary">Звонок</string>
     <string name="ring_vibrate_summary">Звонок и вибрация</string>
-    <string name="silent_summary">Тихий режим</string>
+    <string name="silent_summary">Безшумный режим</string>
     <string name="meeting_summary">Только вибрация</string>
     <string name="outdoor_summary">Самый громкий звонок и вибрация</string>
     <string name="audio_profile_reset">Сброс</string>
@@ -1702,8 +1702,8 @@
     <string name="development_settings_summary">Настройка параметров для разработчиков</string>
     <string name="enable_adb">Отладка по USB</string>
     <string name="enable_adb_summary">Включить режим отладки при подключении к компьютеру по USB</string>
-    <string name="bugreport_in_power">Отчеты об ошибках</string>
-    <string name="bugreport_in_power_summary">Показывать в меню опцию отправки отчета об ошибке</string>
+    <string name="bugreport_in_power">Отчет об ошибках</string>
+    <string name="bugreport_in_power_summary">Показывать в меню пункт - отправка отчета об ошибках</string>
     <string name="keep_screen_on">Не выключать экран</string>
     <string name="keep_screen_on_summary">Во время зарядки экран будет всегда включен</string>
     <string name="allow_mock_location">Фиктивные местоположения</string>
@@ -2069,15 +2069,15 @@
     <string name="no_application">Ничего</string>
     <string name="wait_for_debugger">Подключение отладчика</string>
     <string name="wait_for_debugger_summary">Приложение ожидает подключения отладчика</string>
-    <string name="debug_input_category">Ввод текста</string>
-    <string name="debug_drawing_category">Рисование</string>
+    <string name="debug_input_category">Отображение касаний на экране</string>
+    <string name="debug_drawing_category">Прорисовка</string>
     <string name="debug_monitoring_category">Мониторинг</string>
     <string name="strict_mode">Включен строгий режим</string>
     <string name="strict_mode_summary">Подсвечивать экран во время длительных операций</string>
     <string name="pointer_location">Отображать касания</string>
     <string name="pointer_location_summary">Визуализировать на экране нажатия и жесты</string>
-    <string name="show_touches">Показывать нажатия</string>
-    <string name="show_touches_summary">Отображать точки в местах нажатия на экран</string>
+    <string name="show_touches">Показывать прикосновения</string>
+    <string name="show_touches_summary">Отображать точки в местах соприкосновения с экраном</string>
     <string name="show_screen_updates">Показ. обнов. поверхности</string>
     <string name="show_screen_updates_summary">Подсвечивать окна полностью при их обновлении</string>
     <string name="show_hw_screen_updates">Показывать обнов. экрана</string>
@@ -2108,9 +2108,9 @@
     <string name="transition_animation_scale_title">Переход: масштаб</string>
     <string name="animator_duration_scale_title">Скорость анимации</string>
     <string name="overlay_display_devices_title">Эмуляция доп. экранов</string>
-    <string name="debug_applications_category">Приложения</string>
+    <string name="debug_applications_category">Управление приложениями</string>
     <string name="immediately_destroy_activities">Не сохранять действия</string>
-    <string name="immediately_destroy_activities_summary">Удалять сводку действий после их завершения</string>
+    <string name="immediately_destroy_activities_summary">Удалять действия пользователя после завершения работы приложения</string>
     <string name="app_process_limit_title">Ограничение фоновых процессов</string>
     <string name="show_all_anrs">Все ANR</string>
     <string name="show_all_anrs_summary">Уведомлять о том, что приложение не отвечает</string>
@@ -2380,7 +2380,7 @@
     <string name="notify_dialog_message">Требуется перезагрузка, чтобы изменения вступили в силу. Перезагрузить сейчас?</string>
     <string name="sim_setting_guide_continue">Вперед</string>
     <string name="sim_setting_guide_cancel">Отмена</string>
-    <string name="ring_title">Вызов (звонок, сообщение, уведомление)</string>
+    <string name="ring_title">Звонок, сообщение</string>
     <string name="labi_sync_title">Синхронизация контактов</string>
     <string name="labi_sync_summary">Синхронизация контактов в Labi</string>
     <string name="labi_recovery_title">Востановить контакты</string>
@@ -2406,7 +2406,7 @@
     <string name="back_to_kill_title">Кнопка Назад завершит задачу</string>
     <string name="back_to_kill_summary">Удерживание кнопки Назад завершит текущую задачу</string>
     <string name="phone_inUse">Телефон используется, вы не можете переключиться на Авиарежим</string>
-    <string name="voice_call_alarm_description">Вызов(Голосовой вызов)</string>
+    <string name="voice_call_alarm_description">Разговорный динамик</string>
     <string name="wifi_p2p_dialog_title">Отключить</string>
     <string name="wifi_p2p_dialog_message">Вы хотите отключить?</string>
     <string name="setting_info_empty_text">Нет</string>
@@ -2444,8 +2444,8 @@
     <string name="root_access_apps">Исключительно приложения</string>
     <string name="root_access_adb">Только ADB</string>
     <string name="root_access_all">Приложения и ADB</string>
-    <string name="media_volume_description">Мультимедия (музыка, видео, игры и т.д.)</string>
-    <string name="system_volume_description">Система(фото, скриншоты, нажатие кнопки)</string>
+    <string name="media_volume_description">Мультимедия (музыка, видео и т.д.)</string>
+    <string name="system_volume_description">Система (фото,нажатие кнопок)</string>
 
 
 
