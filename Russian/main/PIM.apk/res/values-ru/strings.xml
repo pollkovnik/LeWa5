@@ -1373,7 +1373,7 @@
     <string name="message_item_received_label">- доставлено</string>
     <string name="sms_backup_location">Место для резервных копий SMS</string>
     <string name="sms_send_count_limit">Отправить сообщение можно только выбрать один из 100 контактов</string>
-    <string name="mms_lewa_easter_eggs">С Днем Рождения</string>
+    <string name="mms_lewa_easter_eggs">С Рождеством</string>
     <string name="hint">Строка для ответа...</string>
     <string name="reply">Ответ</string>
     <string name="choosesms">Выбрать общее сообщение</string>
