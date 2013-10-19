@@ -383,7 +383,7 @@
     <string name="mo_code_outgoing_calls_barred">Исходящий вызов запрещен</string>
     <string name="mo_code_incoming_calls_barred">Входящий вызов запрещен</string>
     <string name="mo_code_clir_suppression_rejected">Служба проверки ID абонента</string>
-    <string name="mo_code_call_deflected">вызов Вызов передан</string>
+    <string name="mo_code_call_deflected">Вызов передан</string>
     <string name="mt_code_forwarded_call">Это переадресованный вызов</string>
     <string name="mt_code_cug_call">Закрытая группа пользователей</string>
     <string name="mt_code_call_on_hold">Вызов удержан</string>
