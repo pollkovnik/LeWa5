@@ -25,13 +25,13 @@
     .parameter "resolver"
 
     .prologue
-    .line 365
+    .line 362
     iput-object p1, p0, Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts$PhoneContactsHandler;->this$0:Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;
 
-    .line 366
+    .line 363
     invoke-direct {p0, p2}, Landroid/content/AsyncQueryHandler;-><init>(Landroid/content/ContentResolver;)V
 
-    .line 368
+    .line 365
     return-void
 .end method
 
@@ -54,14 +54,14 @@
 
     const/4 v5, 0x0
 
-    .line 372
+    .line 369
     packed-switch p1, :pswitch_data_0
 
-    .line 428
+    .line 425
     :goto_0
     return-void
 
-    .line 376
+    .line 373
     :pswitch_0
     iget-object v3, p0, Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts$PhoneContactsHandler;->this$0:Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;
 
@@ -72,7 +72,7 @@
 
     invoke-virtual {v3, p3}, Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts$ChoicePhoneNumbersContactsAdapter;->changeCursor(Landroid/database/Cursor;)V
 
-    .line 378
+    .line 375
     iget-object v3, p0, Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts$PhoneContactsHandler;->this$0:Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;
 
     #getter for: Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;->mProgressDialog:Landroid/app/ProgressDialog;
@@ -82,7 +82,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 379
+    .line 376
     iget-object v3, p0, Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts$PhoneContactsHandler;->this$0:Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;
 
     #getter for: Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;->mProgressDialog:Landroid/app/ProgressDialog;
@@ -92,7 +92,7 @@
 
     invoke-virtual {v3}, Landroid/app/ProgressDialog;->dismiss()V
 
-    .line 380
+    .line 377
     iget-object v3, p0, Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts$PhoneContactsHandler;->this$0:Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;
 
     const/4 v4, 0x0
@@ -100,7 +100,7 @@
     #setter for: Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;->mProgressDialog:Landroid/app/ProgressDialog;
     invoke-static {v3, v4}, Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;->access$402(Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;Landroid/app/ProgressDialog;)Landroid/app/ProgressDialog;
 
-    .line 383
+    .line 380
     :cond_0
     invoke-interface {p3}, Landroid/database/Cursor;->getCount()I
 
@@ -108,7 +108,7 @@
 
     if-lez v3, :cond_7
 
-    .line 384
+    .line 381
     iget-object v3, p0, Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts$PhoneContactsHandler;->this$0:Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;
 
     #getter for: Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;->marrFirstCharacters:Ljava/util/ArrayList;
@@ -118,7 +118,7 @@
 
     invoke-virtual {v3}, Ljava/util/ArrayList;->clear()V
 
-    .line 385
+    .line 382
     iget-object v3, p0, Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts$PhoneContactsHandler;->this$0:Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;
 
     #getter for: Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;->marrFirstLetters:Ljava/util/ArrayList;
@@ -128,12 +128,12 @@
 
     invoke-virtual {v3}, Ljava/util/ArrayList;->clear()V
 
-    .line 386
+    .line 383
     const/4 v3, -0x1
 
     invoke-interface {p3, v3}, Landroid/database/Cursor;->moveToPosition(I)Z
 
-    .line 388
+    .line 385
     :goto_1
     invoke-interface {p3}, Landroid/database/Cursor;->moveToNext()Z
 
@@ -141,18 +141,18 @@
 
     if-eqz v3, :cond_6
 
-    .line 390
+    .line 387
     new-instance v1, Landroid/database/CharArrayBuffer;
 
     invoke-direct {v1, v9}, Landroid/database/CharArrayBuffer;-><init>(I)V
 
-    .line 391
+    .line 388
     .local v1, nameBuffer:Landroid/database/CharArrayBuffer;
     const/4 v3, 0x4
 
     invoke-interface {p3, v3, v1}, Landroid/database/Cursor;->copyStringToBuffer(ILandroid/database/CharArrayBuffer;)V
 
-    .line 392
+    .line 389
     iget-object v3, v1, Landroid/database/CharArrayBuffer;->data:[C
 
     aget-char v3, v3, v5
@@ -169,7 +169,7 @@
 
     if-gt v3, v4, :cond_4
 
-    .line 393
+    .line 390
     iget-object v3, v1, Landroid/database/CharArrayBuffer;->data:[C
 
     aget-char v4, v3, v5
@@ -180,20 +180,20 @@
 
     aput-char v4, v3, v5
 
-    .line 408
+    .line 405
     :cond_1
     :goto_2
     new-instance v2, Landroid/database/CharArrayBuffer;
 
     invoke-direct {v2, v9}, Landroid/database/CharArrayBuffer;-><init>(I)V
 
-    .line 409
+    .line 406
     .local v2, sortKeyBuffer:Landroid/database/CharArrayBuffer;
     const/16 v3, 0xb
 
     invoke-interface {p3, v3, v2}, Landroid/database/Cursor;->copyStringToBuffer(ILandroid/database/CharArrayBuffer;)V
 
-    .line 410
+    .line 407
     iget-object v3, v2, Landroid/database/CharArrayBuffer;->data:[C
 
     aget-char v3, v3, v5
@@ -202,17 +202,17 @@
 
     move-result v0
 
-    .line 411
+    .line 408
     .local v0, letter:C
     if-lt v0, v7, :cond_2
 
     if-le v0, v8, :cond_3
 
-    .line 412
+    .line 409
     :cond_2
     const/16 v0, 0x23
 
-    .line 414
+    .line 411
     :cond_3
     iget-object v3, p0, Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts$PhoneContactsHandler;->this$0:Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;
 
@@ -227,7 +227,7 @@
 
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 415
+    .line 412
     iget-object v3, p0, Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts$PhoneContactsHandler;->this$0:Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;
 
     #getter for: Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;->marrFirstCharacters:Ljava/util/ArrayList;
@@ -245,7 +245,7 @@
 
     goto :goto_1
 
-    .line 394
+    .line 391
     .end local v0           #letter:C
     .end local v2           #sortKeyBuffer:Landroid/database/CharArrayBuffer;
     :cond_4
@@ -278,7 +278,7 @@
 
     if-nez v3, :cond_1
 
-    .line 396
+    .line 393
     iget-object v3, v1, Landroid/database/CharArrayBuffer;->data:[C
 
     const/16 v4, 0x23
@@ -287,7 +287,7 @@
 
     goto :goto_2
 
-    .line 417
+    .line 414
     .end local v1           #nameBuffer:Landroid/database/CharArrayBuffer;
     :cond_6
     iget-object v3, p0, Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts$PhoneContactsHandler;->this$0:Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;
@@ -295,10 +295,10 @@
     #setter for: Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;->misFirstCharactersChanged:Z
     invoke-static {v3, v6}, Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;->access$702(Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;Z)Z
 
-    .line 418
+    .line 415
     invoke-interface {p3}, Landroid/database/Cursor;->moveToFirst()Z
 
-    .line 419
+    .line 416
     iget-object v3, p0, Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts$PhoneContactsHandler;->this$0:Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;
 
     #getter for: Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;->mEmptyTextView:Landroid/widget/TextView;
@@ -312,7 +312,7 @@
 
     goto/16 :goto_0
 
-    .line 421
+    .line 418
     :cond_7
     iget-object v3, p0, Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts$PhoneContactsHandler;->this$0:Lcom/lewa/PIM/mms/choiceContacts/MmsChoicePhoneNumbersContacts;
 
@@ -325,7 +325,7 @@
 
     goto/16 :goto_0
 
-    .line 372
+    .line 369
     :pswitch_data_0
     .packed-switch 0x0
         :pswitch_0

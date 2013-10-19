@@ -60,11 +60,9 @@
 
     new-array v0, v0, [Ljava/lang/String;
 
-    const/4 v1, 0x0
+    const-string v1, "\u2605"
 
-    const-string v2, "\u2605"
-
-    aput-object v2, v0, v1
+    aput-object v1, v0, v3
 
     const/4 v1, 0x1
 
@@ -441,7 +439,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0200f1
+    const v1, 0x7f0200f3
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

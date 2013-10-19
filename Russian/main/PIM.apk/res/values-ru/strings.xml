@@ -1410,8 +1410,8 @@
     <string name="menu_mms_timer_text">Таймер</string>
     <string name="mms_timer_add_error">Ошибка таймера, отличие от системного времени</string>
     <string name="attach_select_local_video">Локальное видеo</string>
-    <string name="sms_backup_store_in">основной накопитель</string>
-    <string name="sms_backup_sd_card">дополнительный накопитель</string>
+    <string name="sms_backup_store_in">накопитель по умолчанию</string>
+    <string name="sms_backup_sd_card">вторичный накопитель</string>
     <string name="sms_import_sdcard">Импорт SMS из %s </string>
     <string name="sms_export_sdcard">Экспорт SMS на %s</string>
     <string name="sms_whether_export_item">Желаете ли вы экспортировать SMS на %s?</string>
