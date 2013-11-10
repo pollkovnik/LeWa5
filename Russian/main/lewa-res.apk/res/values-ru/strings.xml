@@ -1,7 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="selectNone">Отмена</string>
+
+
+
+
+
+
+
+
+
+
     <string name="title_actionbar_selected_items">%s выбрано</string>
+
+
+
+
+    <string name="data_usage_warning_body">Осторожно, согласно тарифного плана осталось только %s.</string>
+    <string name="global_actions_toggle_airplane_mode">Режим полета</string>
+    <string name="global_action_power_off">Выключить</string>
+    <string name="global_action_reboot">Перезагрузка</string>
+    <string name="global_action_screenshot">Снимок экрана</string>
+    <string name="global_action_toggle_silent_mode">Беззвучный режим</string>
+    <string name="reboot_progress">Перезагрузка…</string>
+    <string name="reboot_reboot">Перезагрузка</string>
+    <string name="reboot_system">Перезагрузка устройства</string>
+    <string name="power_off">Выключение</string>
+    <string name="shutdown_progress">Выключение…</string>
+    <string name="shutdown_confirm">Устройство будет выключено</string>
+
+
+
+
+
 
 
 
@@ -73,19 +104,13 @@
     <string name="lunar_nian">двадцать</string>
     <string name="lunar_year">год</string>
     <string name="lunar_yue">месяц</string>
-    <string name="reboot_system">Режим перезагрузки</string>
-    <string name="global_action_screenshot">Снимок экрана</string>
-    <string name="global_action_toggle_silent_mode">Беззвучный режим</string>
     <string name="global_action_screenshot_status">Нажмите одновременно кнопки: Питание и громкость "-" для получения скриншота</string>
-    <string name="reboot_reboot">Обычный</string>
     <string name="reboot_recovery">В рекавери</string>
     <string name="reboot_bootloader">Загрузчик</string>
     <string name="reboot_bootmenu">Загрузочное меню</string>
     <string name="reboot_fastboot">Быстрая загрузка</string>
     <string name="reboot_download">Загрузка</string>
-    <string name="reboot_progress">Перезагрузка…</string>
     <string name="reboot_confirm">Ваш телефон перезагрузится.</string>
-    <string name="global_action_reboot">Перезагрузка</string>
     <string name="lockscreen_discharging">Батарея (%d%%)</string>
     <string name="progress_scanning">Сканирую</string>
     <string name="phone_goggles_problem_count">Проблема #%1$d:</string>
@@ -93,7 +118,6 @@
     <string name="permlab_revokePermissions">Позволяет просматривать и редактировать аннулированные разрешения. Не для использования обычными приложениями.</string>
     <string name="permdesc_revokePermissions">Позволяет читать и писать отмененные разрешения. Не для использования обычными приложениями.</string>
     <string name="app_killed_message">Приложение закрыто</string>
-    <string name="back_killed_message">закрыто</string>
     <string name="lock_screen_miss_call">%1$d пропущенный звонок</string>
     <string name="lock_screen_new_msg">%1$d новое сообщение</string>
     <string name="lock_screen_miss_calls">%1$d пропущенных звонков</string>
@@ -107,7 +131,11 @@
     <string name="fixed_line">Фиксированная</string>
     <string name="ringtone_custom">Обычная...</string>
     <string name="ringtone_silent_summary">Тихий</string>
-    <string name="data_usage_warning_body">Осторожно, только %s осталось от пакета данных оператора.</string>
+    <string name="hour">час.</string>
+    <string name="minute">мин.</string>
+    <string name="capital_on">ВКЛ</string>
+    <string name="capital_off">ВЫКЛ</string>
+    <string name="storage_phone">Внутренний накопитель</string>
     <string name="text_pastelist">Буфер</string>
     <string name="select">Выдел.</string>
 

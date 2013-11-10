@@ -1190,7 +1190,7 @@
     <string name="screensaver_settings_when_to_dream">Когда включать</string>
     <string name="screensaver_settings_dream_start">Включить</string>
     <string name="screensaver_settings_button">Настройки</string>
-    <string name="automatic_brightness">Автонастройка</string>
+    <string name="automatic_brightness">Автояркость</string>
     <string name="title_font_size">Размер шрифта</string>
 
     <string name="dialog_title_font_size">Размер шрифта</string>

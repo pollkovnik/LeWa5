@@ -737,6 +737,7 @@
     <string name="multichoice_confirmation_message_copy">Отменить копирование контактов?</string>
     <string name="multichoice_no_select_alert">Элемент не выбран.</string>
     <string name="multichoice_delete_confirm_message">Действительно удалить выбранные элементы контакта?</string>
+    <string name="multichoice_delete_confirm_message_with_sim">Действительно удалить выбранный(е) контакт(ы)(включая контакты на SIM/USIM)?</string>
     <string name="multichoice_delete_confirm_title">Удаление элементов контакта?</string>
     <string name="multichoice_contacts_limit">Выбранных контактов не может быть больше, чем 5000</string>
     <string name="phone_storage_full_create">Память телефона заполнена, создание нового контакта невозможно.</string>
@@ -1361,6 +1362,7 @@
     <string name="dialer_search_item_misscall_time">гудков: %s</string>
     <string name="dialpad_to_text">Позвонить:</string>
     <string name="call_log_clear_all">Очистить журнал вызовов</string>
+    <string name="dialpad_key_fast_not_set">Ключ быстрого запуска не задан</string>
     <string name="mms_select_contacts_group_count">контакты</string>
     <string name="mms_select_contacts_recent_contacts">последние контакты</string>
     <string name="message_compose_menu_resend_label">Переслать</string>
@@ -1496,6 +1498,7 @@
     <string name="view_more_conversations">Посмотреть больше разговоров</string>
     <string name="mms_timer_text_formart" formatted="false">%sГод%sМесяц%sДень</string>
     <string name="menu_mms_timer_send">Отправка по таймеру :</string>
+    <string name="notify_type_message">Сообщение уведомления</string>
     <string name="ip_call_settings">Настройки IP вызова</string>
     <string name="ip_prefix_hint">Например 17951,12593,17911</string>
     <string name="ip_prefix_description">IP префикс</string>
@@ -1565,4 +1568,17 @@
     <string name="hint_findAllContacts">Поиск среди %s контактов</string>
     <string name="company_info">Компания</string>
     <string name="group_entry_item">Группы контактов</string>
+    <string name="preferce_import">Импорт</string>
+    <string name="preferce_export">Экспорт</string>
+    <string name="import_from_sdcard_vcf">Импорт Vcard из хранилища</string>
+    <string name="import_from_sim_contacts">Импорт контактов с SIM-карты</string>
+    <string name="export_to_sdcard_vcf">Экспорт контактов в хранилище в формате Vcard</string>
+    <string name="export_to_sim">Экспорт на SIM-карту</string>
+    <string name="export_to_sim_contacts">Экспорт контактов на SIM-карту</string>
+    <string name="no_share_contacts">У Вас нет видимых контактов</string>
+    <string name="sim_contact_count">Хранится %s контактов</string>
+    <string name="sim_contact_residue_count">%s контактовможно импортировать</string>
+    <string name="import_from_sim_choose_account">Импорт контактов с SIM-карты под аккаунтом</string>
+    <string name="export_to_sim_choose_account">Экспорт контактов с SIM-карты под аккаунтом</string>
+    <string name="sim_has_no_data">Выбранная SIM-карта не имеет контактов</string>    <string name="preferce_import">Импорт</string>
 </resources>
